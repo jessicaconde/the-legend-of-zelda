@@ -1,0 +1,75 @@
+body {
+    /* background-image: url(images/botw2.jpg);
+    background-size: cover;*/
+    background-color: #d9cfb2;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0vw 30vw 1vw 30vw;
+}
+
+.textbox1 {
+    background:#f2e8c9;
+    border: 1px solid gray;
+    width: 10vw;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.textbox1:hover {
+    transform: scale(1.1);
+}
+
+.textbox2 {
+    background-color: #f2e8c9;
+    border: 1px solid gray;
+    width: 10vw;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.textbox2:hover {
+    transform: scale(1.1);
+}
+
+.textbox3 {
+    background-color: #f2e8c9;
+    border: 1px solid gray;
+    width: 10vw;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.textbox3:hover {
+    transform: scale(1.1);
+}
+
+.zeldaimg {
+    margin-left: 15vw;
+    margin-top: 5vh;
+    float: left;
+}
+
+.linkimg {
+    margin-right: 15vw;
+    margin-top: 5vh;
+    float: right;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkgray;
+}
