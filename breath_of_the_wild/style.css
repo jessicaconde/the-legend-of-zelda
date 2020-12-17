@@ -8,6 +8,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 .textcontainer {
@@ -54,6 +56,14 @@ body {
     transform: scale(1.1);
 }
 
+.maintextbox {
+    background-color: #f2e8c9;
+    border: 1px solid gray;
+    width: 35vw;
+    padding: 20px;
+    margin-bottom: 1vw;
+}
+
 .zeldaimg {
     margin-left: 15vw;
     margin-top: 5vh;
@@ -64,6 +74,18 @@ body {
     margin-right: 15vw;
     margin-top: 5vh;
     float: right;
+}
+
+.homebutton {
+    background-color: #f2e8c9;
+    border: 1px solid gray;
+    width: 10vw;
+    padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.homebutton:hover {
+    transform: scale(1.1);
 }
 
 a {
