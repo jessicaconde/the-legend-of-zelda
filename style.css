@@ -90,3 +90,11 @@ body {
     margin-left: 9vw;
     margin-top: 3vw;
 }
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: darkgray;
+}
