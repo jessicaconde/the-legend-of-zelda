@@ -3,52 +3,90 @@
     padding: 0;
 }
 
-body {
-    background-image: url(images/botw2.jpg);
-    background-size: cover;
-}
-
-h1 {
-    color: white;
-    margin: 20px;
-    font-size: 5vw;
+.mastercontainer {
+    margin-top: 2vw;
+    margin-left: 5vw;
 }
 
 .container {
     display: flex;
+}
+
+body {
+    /* background-image: url(images/botw2.jpg);
+    background-size: cover;*/
+    background-color: #d9cfb2;
+}
+
+
+.textcontainer {
+    display: flex;
     justify-content: space-evenly;
-    margin-left: 7vw;
-    margin-right: 35vw;
+    margin: 2vw 22vw 0vw 37vw;
     text-align: center;
 }
 
 .textbox1 {
-    background: white;
+    background:#f2e8c9;
     border: 1px solid gray;
-    width: 15vw;
+    width: 10vw;
     padding: 5px;
-    margin: 0px;
+    transition: all .2s ease-in-out;
+}
+
+.textbox1:hover {
+    transform: scale(1.1);
 }
 
 .textbox2 {
-    background-color: white;
+    background-color: #f2e8c9;
     border: 1px solid gray;
-    width: 15vw;
+    width: 10vw;
     padding: 5px;
-    margin: 0 auto;
+    transition: all .2s ease-in-out;
+}
+
+.textbox2:hover {
+    transform: scale(1.1);
 }
 
 .textbox3 {
-    background-color: white;
+    background-color: #f2e8c9;
     border: 1px solid gray;
-    width: 15vw;
+    width: 10vw;
     padding: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.textbox3:hover {
+    transform: scale(1.1);
 }
 
 .maintextbox {
-    background-color: white;
+    background-color: #f2e8c9;
     border: 1px solid gray;
-    width: 62vw;
-    padding: 5px;
-    margin: 30px;
+    width: 35vw;
+    padding: 20px;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+
+.verticalline {
+    background-color: black;
+    float: left;
+    width: 1px;
+    height: 400px;
+    margin-left: 2vw;
+    margin-top: 15vh;
+}
+
+.linkimg {
+    margin-left: 15vw;
+    margin-top: 8vh;
+    float: left;
+}
+
+.logoimg {
+    margin-left: 9vw;
+    margin-top: 3vw;
 }
