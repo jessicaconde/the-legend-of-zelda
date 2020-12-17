@@ -13,9 +13,8 @@
 }
 
 body {
-    /* background-image: url(images/botw2.jpg);
-    background-size: cover;*/
     background-color: #d9cfb2;
+    cursor: url("../cursor.cur"), auto;
 }
 
 
